@@ -68,6 +68,11 @@ h3,h2,h5{
 #clien{ 
     opacity: 1;
 }
+#head{
+    /* position:fixed; */
+    width:100%;
+    background-color:  #184175!important; 
+}
 
 .ro{
     width:100%;
@@ -79,6 +84,10 @@ h3,h2,h5{
     height: 65vh;
     width: 100%;
     background-size: cover; 
+}
+
+.pha .lo{
+    margin-top: 20px;
 }
 
 .loo{
@@ -97,13 +106,14 @@ h3,h2,h5{
 }
 
 /* Contact Page */
-#contact{
+#footer{
     background-color:#606060;
     color: white;
     font-size: 16px;
+    margin-top: 30px;
 }
 
-#contact ul,li{
+#footer ul,li{
     list-style: none;
     text-decoration: none;
     color: white;
@@ -113,3 +123,12 @@ h3,h2,h5{
     display: flex;
 }
 
+/* .conc{
+    background: url(../img/ivend.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width:100%;
+} */
+.main-con{
+    border-bottom: 2px dotted #000
+}
