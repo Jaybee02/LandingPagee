@@ -7,6 +7,9 @@
     height: 52vh;
     width:90%;
 }
+.card{
+    position: static;
+}
 .jay{
     background: url(../img/j3.jpg) no-repeat;
     height: 50vh;
